@@ -1,0 +1,26 @@
+<div class="row mt-4">
+  <div class="colt-md-6 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="text-center">
+          <span class="text-success">
+            <i class="fa fa-lock" aria-hidden="true"></i> Register Panel
+          </span> Client
+        </h1>
+
+        <form (ngSubmit)="onRegister()">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" [(ngModel)]="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" [(ngModel)]="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <input type="submit" value="Register" class="btn btn-success btn-block">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

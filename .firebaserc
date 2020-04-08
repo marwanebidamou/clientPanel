@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clientpanel-cdb22": {
+      "hosting": {
+        "clientPanel": [
+          "clientpanel-cdb22"
+        ]
+      }
+    }
+  }
+}
